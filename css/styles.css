@@ -59,31 +59,35 @@ path {
   }
 }
 
-/*@keyframes colorful {
+@keyframes colorful {
   50% {
-	 background-color: lime;
+    background-color: lime;
   }
 }
+
 @-webkit-keyframes colorful {
   50% {
-	 background-color: lime;
+    background-color: lime;
   }
 }
+
 @-moz-keyframes colorful {
   50% {
-	 background-color: lime;
+    background-color: lime;
   }
 }
+
 @-o-keyframes colorful {
   50% {
-	 background-color: lime;
+    background-color: lime;
   }
 }
+
 svg {
   position: absolute;
-  top:50%;
-  left:50%;
-  margin-left:-50px;
+  top: 50%;
+  left: 50%;
+  margin-left: -50px;
   margin-top: -50px;
   transition: 1s;
 }

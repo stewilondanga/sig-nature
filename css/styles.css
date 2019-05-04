@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -19,6 +19,76 @@ body {
 
 .my_social a img {
   height: 1.5em;
+}
+
+path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: 8s infinite dash;
+  -webkit-animation: 8s infinite dash;
+  -moz-animation: 8s infinite dash;
+  -o-animation: 8s infinite dash;
+  stroke: lime;
+}
+
+@keyframes dash {
+  50% {
+    stroke-dashoffset: 0;
+	 stroke: blue;
+  }
+}
+@-webkit-keyframes dash {
+  50% {
+    stroke-dashoffset: 0;
+	 stroke: blue;
+  }
+}
+@-moz-keyframes dash {
+  50% {
+    stroke-dashoffset: 0;
+	 stroke: blue;
+  }
+}
+@-o-keyframes dash {
+  50% {
+    stroke-dashoffset: 0;
+	 stroke: blue;
+  }
+}
+body {
+	background-color: blue;
+	animation: 8s infinite colorful;
+	-webkit-animation: 8s infinite colorful;
+	-moz-animation: 8s infinite colorful;
+	-o-animation: 8s infinite colorful;
+}
+@keyframes colorful {
+  50% {
+	 background-color: lime;
+  }
+}
+@-webkit-keyframes colorful {
+  50% {
+	 background-color: lime;
+  }
+}
+@-moz-keyframes colorful {
+  50% {
+	 background-color: lime;
+  }
+}
+@-o-keyframes colorful {
+  50% {
+	 background-color: lime;
+  }
+}
+svg {
+  position: absolute;
+  top:50%;
+  left:50%;
+  margin-left:-50px;
+  margin-top: -50px;
+  transition: 1s;
 }
 
 .containers {

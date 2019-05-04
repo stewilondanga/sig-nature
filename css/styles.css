@@ -37,13 +37,14 @@ path {
   }
 }
 
-/*@-moz-keyframes dash {
+@-moz-keyframes dash {
   50% {
     stroke-dashoffset: 0;
-	 stroke: blue;
+    stroke: blue;
   }
 }
-@-o-keyframes dash {
+
+/*@-o-keyframes dash {
   50% {
     stroke-dashoffset: 0;
 	 stroke: blue;

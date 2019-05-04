@@ -23,13 +23,14 @@ path {
   stroke: lime;
 }
 
-/*@keyframes dash {
+@keyframes dash {
   50% {
     stroke-dashoffset: 0;
-	 stroke: blue;
+    stroke: blue;
   }
 }
-@-webkit-keyframes dash {
+
+/*@-webkit-keyframes dash {
   50% {
     stroke-dashoffset: 0;
 	 stroke: blue;

@@ -13,7 +13,7 @@
   height: 1.5em;
 }
 
-/*path {
+path {
   stroke-dasharray: 1000;
   stroke-dashoffset: 1000;
   animation: 8s infinite dash;
@@ -23,7 +23,7 @@
   stroke: lime;
 }
 
-@keyframes dash {
+/*@keyframes dash {
   50% {
     stroke-dashoffset: 0;
 	 stroke: blue;

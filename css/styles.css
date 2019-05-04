@@ -1,3 +1,11 @@
+body {
+  background-color: blue;
+  animation: 8s infinite colorful;
+  -webkit-animation: 8s infinite colorful;
+  -moz-animation: 8s infinite colorful;
+  -o-animation: 8s infinite colorful;
+}
+
 .my_social {
   position: absolute;
   top: 25px;
@@ -49,13 +57,6 @@ path {
     stroke-dashoffset: 0;
 	 stroke: blue;
   }
-}
-body {
-	background-color: blue;
-	animation: 8s infinite colorful;
-	-webkit-animation: 8s infinite colorful;
-	-moz-animation: 8s infinite colorful;
-	-o-animation: 8s infinite colorful;
 }
 @keyframes colorful {
   50% {

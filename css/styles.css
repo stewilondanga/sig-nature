@@ -30,13 +30,14 @@ path {
   }
 }
 
-/*@-webkit-keyframes dash {
+@-webkit-keyframes dash {
   50% {
     stroke-dashoffset: 0;
-	 stroke: blue;
+    stroke: blue;
   }
 }
-@-moz-keyframes dash {
+
+/*@-moz-keyframes dash {
   50% {
     stroke-dashoffset: 0;
 	 stroke: blue;
